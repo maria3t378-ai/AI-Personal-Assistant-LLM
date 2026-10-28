@@ -1,0 +1,22 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Private personal data
+personal_memory.json
+chat_history.json
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model files
+*.pkl
+*.pt
+*.pth
+*.safetensors
